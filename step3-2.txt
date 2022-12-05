@@ -1,0 +1,7 @@
+2.
+public void mulist() {
+    	
+        String game1 = "C: (1)\Users\¿Ã¿∫øµ\Desktop\sun\game1.wav";
+        Music player = new Music((2));
+        (3)player.play(game1);
+}

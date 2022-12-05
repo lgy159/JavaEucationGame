@@ -1,0 +1,4 @@
+1.If you want Encapsulation in your code,you must follow three step.
+one step, mark all instance variables private so they are well hidden.
+two step, mark getters and setters pubilc so they can be accessed by anyone.
+three step, add _________to setters.

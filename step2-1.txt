@@ -1,0 +1,1 @@
+Q: What access modifier is used when you can call method without creating object?

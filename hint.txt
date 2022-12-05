@@ -1,0 +1,14 @@
+1-1 g _ _ _ _ _ _ _s
+1-2 overroading must be same parameter list
+1-3 int=4byte double=8byte
+2-1 if you create object -> public objectname (){}
+2-2 _ n _ _ r _ _ a _ _ e
+2-3 _ o _ _ m _ _ _ h _ _ m
+3-1 ???:can add strings
+3-2 add \ somewhere
+3-3 you consider about public void type and public int type
+3-4 ObjectOutputStream convert object into bytes
+4-1 Animal class has makeNoise method and eat method
+4-2 you must distinguish i++ and ++i.
+4-3 you have to use '=', if you want to compare string address
+4-4 'A'+1='B' (you have to think about ASCII code)

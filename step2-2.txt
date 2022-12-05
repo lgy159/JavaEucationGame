@@ -1,0 +1,10 @@
+¡Ü Reduce duplicate code by writing common code in a superclass.
+
+¡Ü Adding new common code is easy: just add it to the superclass and it 
+will be inherited by all subclasses.
+¡Ü With superclass, you define a common form for a group of classes.
+
+¡Ü All subclasses have the same instance variables and behavior than the 
+superclass.
+
+Q:Write what the thing is that have these benefits.

@@ -1,0 +1,12 @@
+1.
+public (1) class practice {
+	
+	public static void main(String[] args) {
+		
+		(2)int num;
+		num = 7;
+		System.out.println("My Number: " (3)num);
+		
+	}
+
+}

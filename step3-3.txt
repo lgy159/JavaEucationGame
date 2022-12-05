@@ -1,0 +1,7 @@
+3.
+Public (1)int number() {
+int a;
+int b;
+int (2)plus;
+plus = a+b; (3)
+}

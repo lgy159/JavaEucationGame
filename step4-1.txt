@@ -1,0 +1,59 @@
+ public class Animal {
+
+	public String food;
+
+	public void makeNoise() {
+		System.out.println("Animal makes noise");
+	}
+
+	public void eat(String food) {
+		
+		System.out.println("Animal eats " + food);
+	}
+	
+	public static void main(String args[])
+	{
+		Cat a = new Cat();
+		Animal b = new Cat();
+		
+		a.eat("feed");
+		b.sleep();
+		b.makeNoise();
+	}
+
+}
+
+class Cat extends Animal{
+
+	public void makeNoise()
+	{
+		System.out.println("Cat makes noise Ya-ong");
+	}
+	
+	public void eat(String food)
+	{
+		System.out.println("Cat eats "+food);
+	}
+	public void sleep()
+	{
+		System.out.println("Cat sleeps");
+	}
+}
+
+
+
+a.eat("feed");
+b.sleep();
+b.makeNoise();
+
+Q.What is the output?
+
+1)	                                     3)
+Animal eats feed                       Cat eats feed 
+Animal sleeps                          Animal sleeps  
+Cat makes noise Ya ong                X
+2)	                                     4)
+Animal eats feed                       Cat eats feed
+Animal sleeps                           X  
+Animal makes noise                    Cat makes noise Ya ong
+

@@ -1,0 +1,45 @@
+Q.Look at the code. What is the output ? (Ignore the space)
+
+package test;
+
+public class test{
+
+
+	public static void main(String[] args) {
+
+
+		test t = new test();
+		System.out.println(t.StringA());
+	}
+	
+public String StringA(){
+	String a = new String("hello");
+	String b = new String("hello");
+	String c = a;
+	String d = "hello";
+	
+	String output=" ";
+	
+	if(c==a)
+	output="1";
+
+	if(d==a)
+		output=output+" 2";
+		
+	if(a==b){
+		output=output+" 3";
+	}
+	if(a.equals(b)){
+		output=output+" 4";
+	}
+	if(a.equals(c)){
+		output=output+" 5";
+	}
+	else 
+		output=output+" 0";
+	
+	return output;
+
+}
+	
+}

@@ -1,0 +1,12 @@
+¡Ü With this, you can write code that doesn't have to change 
+when you add new subclasses.
+
+¡Ü You can easily handle a collection different objects that have the same superclass.
+
+¡Ü ex) Create an array/ArrayList of Animals and store there all kinds of 
+animals!
+
+¡Ü Method overriding is very important in this to get different 
+behavior in different classes.
+
+Q: what is this?

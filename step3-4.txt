@@ -1,0 +1,12 @@
+4.
+	
+
+	try {
+		FileOutputStream fos = new (1)FileOutputStream("box.dat");
+		ObjectOutputStream oos = new ObjectOutputStream((2));
+		oos.writeObject(myBox);
+		oos.close();
+	} (3)catch (Exception e) {
+		e.printStackTrace();
+	}
+}
